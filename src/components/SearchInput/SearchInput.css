@@ -1,0 +1,56 @@
+.inputBox{
+    width: 70vw;
+    height: 8vh;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+  }
+  .inputBox:focus{
+    border: none;
+    border-color: none;
+  }
+  .result{
+    margin-top: 2rem;
+  }
+  .mapBox{
+    /* border: 1px red solid; */
+    background-color: white;
+    width: 70vw;
+    margin-top: 10px;
+    height: 30vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* cursor: pointer; */
+  }
+  .mapBox::-webkit-scrollbar {
+    display: none;
+}
+.resultbox{
+    margin:  1rem;
+    font-size: large;
+    /* cursor: pointer; */
+}
+.resultbox label,input{
+    cursor: pointer;
+}
+.textArea{
+    width: 80vw;
+    margin: 2rem 0;
+    /* border: 2px red solid; */
+    
+}
+textarea{
+    resize: none;
+    /* font-size: larger; */
+    padding: 10px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

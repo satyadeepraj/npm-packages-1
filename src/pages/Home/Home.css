@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .myapp {
+    text-align: center;
+    color:darkmagenta ;
+    background-color: black;
+   font-family: serif;
+   height: 4rem;
+   
+    
+  }
+
+  .main_div{
+    height: 150vh;
+    width: 100vw;
+    background-color: darkgrey;
+  }
+  .searchBox{
+    padding: 3rem;
+    background-color: thistle;
+  }
+  .listLink{
+    display: flex;
+    justify-content: space-between;
+   padding:0 4rem;
+  }
+  .myName{
+    color: maroon;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: whitesmoke;
+    font-family: fantasy;
+  
+  }
+  .icn{
+    height: 30px;
+    /* border:  red 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
